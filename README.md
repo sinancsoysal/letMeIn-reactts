@@ -17,3 +17,8 @@
 ![img](https://i.imgur.com/GODcPxk.png)
 
 ![img](https://i.imgur.com/P4x6PrX.png)
+
+## Languages
+
+LetMeIn is currently available in the following languages:
+* ENGLISH
