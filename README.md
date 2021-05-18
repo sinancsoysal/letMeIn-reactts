@@ -26,11 +26,11 @@ LetMeIn is currently available in the following languages:
 ## How to use
 
 - Update node_modules
-'''
+```
 npm update
-'''
+```
 
 - Run start.sh
-'''
+```
 ./start.sh
-'''
+```
