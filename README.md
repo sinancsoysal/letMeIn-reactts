@@ -30,6 +30,8 @@ LetMeIn is currently available in the following languages:
 - Java Extensions:
   - Maven
   - Spring Framework
+- React
+- Typescript
 
 
 ## How to use
