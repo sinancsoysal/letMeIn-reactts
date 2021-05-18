@@ -23,6 +23,15 @@
 LetMeIn is currently available in the following languages:
 * ENGLISH
 
+## Requirements
+
+- MySQL 8+
+- Java 11+
+- Java Extensions:
+  - Maven
+  - Spring Framework
+
+
 ## How to use
 
 - Update node_modules
@@ -34,3 +43,24 @@ npm update
 ```
 ./start.sh
 ```
+
+- Create a database called "letMeIn" in your localhost
+- Create table under the database "letMeIn"
+```
+CREATE TABLE `login` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `url` tinyblob,
+  `mail` tinyblob,
+  `pass` tinyblob,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+```
+
+- Run the jar file
+```
+java -jar letMeIn-0.0.1-SNAPSHOT
+```
+
+## Disclaimer
+
+This application is for education purposes only. It may contain vulnerabilities!!
