@@ -1,0 +1,26 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+
+  useEffect(() => {
+    axios.get<Login[]>('http://192.168.1.106:8080/api/logins', {
+
+      // Axios looks for the `auth` option, and, if it is set, formats a
+      // basic auth header for you automatically.
+      auth: {
+        username: 'nani',
+        password: 'c!//q)Nr$CFC'
+      }
+    })
+      .then((response) => response.data)
+      .then((json) => {
+        setLoginsList(json)
+        localStorage.setItem("logins", JSON.stringify(json))
+      })
+      .catch(err => {
+        let collection = localStorage.getItem("logins");
+        setLoginsList(JSON.parse(collection || '{}'));
+        console.log('err')
+      })
+  }, [])
