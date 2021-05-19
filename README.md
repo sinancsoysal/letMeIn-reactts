@@ -57,10 +57,11 @@ CREATE TABLE `login` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
-
+- Get the executable jar file from
+  - https://drive.google.com/file/d/1e9-2xHX-flWuw8Rx9CEmOaABpqNjPkxo/view?usp=sharing
 - Run the jar file
 ```
-java -jar letMeIn-0.0.1-SNAPSHOT
+java -jar letMeIn-mysql.jar
 ```
 
 ## Disclaimer
