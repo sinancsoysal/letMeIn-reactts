@@ -40,18 +40,18 @@ https://github.com/ssscs/letmein-spring
 
 ## How to use
 
-- Update node_modules
+1. Update node_modules
 ```
 $ npm update
 ```
 
-- Run start.sh
+2. Run start.sh
 ```
 $ ./start.sh
 ```
 
-- Create a database called "letMeIn" in your localhost
-- Create table under the database "letMeIn"
+3. Create a database called "letMeIn" in your localhost
+4. Create table under the database "letMeIn"
 ```
 CREATE TABLE `login` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -61,9 +61,9 @@ CREATE TABLE `login` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
-- Get the executable jar file from
+5. Get the executable jar file from
   - https://drive.google.com/file/d/1e9-2xHX-flWuw8Rx9CEmOaABpqNjPkxo/view?usp=sharing
-- Run the jar file
+6. Run the jar file
 ```
 $ java -jar letMeIn-mysql.jar
 ```
