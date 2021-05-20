@@ -4,7 +4,7 @@
 
 - Store Login/Password credentials
 - One-click Strong Password Generation
-- Google Drive Sync (optional)
+- PWA enabled so you can easily add it on your desktop or mobile platform
 - No data is leaving your computer:
   - Everything is encrypted, stored and decrypted on your local database
   - Easy to backup and restore
@@ -42,12 +42,12 @@ https://github.com/ssscs/letmein-spring
 
 - Update node_modules
 ```
-npm update
+$ npm update
 ```
 
 - Run start.sh
 ```
-./start.sh
+$ ./start.sh
 ```
 
 - Create a database called "letMeIn" in your localhost
@@ -65,9 +65,15 @@ CREATE TABLE `login` (
   - https://drive.google.com/file/d/1e9-2xHX-flWuw8Rx9CEmOaABpqNjPkxo/view?usp=sharing
 - Run the jar file
 ```
-java -jar letMeIn-mysql.jar
+$ java -jar letMeIn-mysql.jar
 ```
 
 ## Disclaimer
 
-This application is for education purposes only. It may contain vulnerabilities!!
+This application is for education purposes only. **It may contain vulnerabilities!!**
+I don't recommend using this application publicly because there is no encryption for the communication between the frontend and the backend.
+**Use it at your own risk.**
+
+## Note
+
+If you want to enable all the PWA options you need to generate certificates before enabling https.
