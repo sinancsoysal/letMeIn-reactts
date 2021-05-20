@@ -1,6 +1,6 @@
 ## LetMeIn Password Manager
 
-letMeIn is an password management application where you can store your passwords securely and generate strong passwords.
+letMeIn is a password management application where you can store your passwords securely and generate strong passwords.
 
 ## Features
 
