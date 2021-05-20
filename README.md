@@ -50,20 +50,9 @@ $ npm update
 $ ./start.sh
 ```
 
-3. Create a database called "letMeIn" in your localhost
-4. Create table under the database "letMeIn"
-```
-CREATE TABLE `login` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `url` tinyblob,
-  `mail` tinyblob,
-  `pass` tinyblob,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-```
-5. Get the executable jar file from
+3. Get the executable jar file from
   - https://drive.google.com/file/d/1e9-2xHX-flWuw8Rx9CEmOaABpqNjPkxo/view?usp=sharing
-6. Run the jar file
+4. Run the jar file
 ```
 $ java -jar letMeIn-mysql.jar
 ```
